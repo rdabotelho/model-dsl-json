@@ -1,0 +1,7 @@
+/.idea/**/*
+.DS_Store
+/target/**/*
+/jni/**/*
+/graalvm/input/*
+/graalvm/output/*
+./hs_erro_pid*

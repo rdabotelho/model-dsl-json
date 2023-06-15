@@ -1,0 +1,19 @@
+entity Country {
+    String name
+    Double size
+    List<State> staties
+}
+
+entity State {
+    String name
+    Country country
+    Region region
+}
+
+enum Region {
+    NORTH
+    NORTHEAST
+    MIDWEST
+    SOUTHEAST
+    SOUTH
+}
